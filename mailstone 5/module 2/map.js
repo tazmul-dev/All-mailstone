@@ -53,3 +53,8 @@ const incrimentPoducts = products.map(prd =>{
     return prd.price + incriment
 })
 console.log(incrimentPoducts)
+
+const underNumber = [12, 55, 110, 444, 123,258]
+
+const numberu = underNumber.map(n=> n < 100)
+console.log(numberu)
